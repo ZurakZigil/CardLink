@@ -1,48 +1,50 @@
 ﻿<!DOCTYPE html>
-<html>
+@*<html>*@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>@ViewBag.Login - My ASP.NET Application</title>
     @Styles.Render("~/Content/LoginCSS")
-    @*@Scripts.Render("~/bundles/LoginJS")*@
+    @Scripts.Render("~/bundles/LoginJS")
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="http://placehold.it/150x50?text=Logo" alt="">
-            </a>
-            <div class="navbar-header">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    <span class="navbar-toggler-icon"></span>
-                    <span class="navbar-toggler-icon"></span>
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                @*@Html.ActionLink("CardLink", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })*@
-            </div>
-            <div class="navbar-collapse collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">@Html.ActionLink("HOME", "Index", "Home")</li>
-                    <li class="nav-item active">@Html.ActionLink("ABOUT", "About", "Home")</li>
-                    <li class="nav-item active">@Html.ActionLink("DONATE", "About", "Home")</li>
-                    @*<li>@Html.ActionLink("Contact", "Contact", "Home")</li>*@
-                </ul>
-            </div>
-        </div>
-        </nav>
-      
-        <div class="container body-content">
-            @RenderBody()
-            <hr />
-            <footer>
-                <p>&copy; @DateTime.Now.Year - University of Louisville: College of Business CardLink</p>
-            </footer>
-        </div>
 
-        @*@Scripts.Render("~/bundles/jquery")
-            @Scripts.Render("~/bundles/bootstrap")
-            @RenderSection("scripts", required: false)*@
-</body>
-</html>
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+        <a class="navbar-brand" href="#">
+            <img src="../../Content/Images/CardLink Logo v1.png" alt="">
+        </a>
+        <div class="navbar-header">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            @*@Html.ActionLink("CardLink", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })*@
+        </div>
+        <div class="navbar-collapse collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">@Html.ActionLink("HOME", "Index", "Home")</li>
+                <li class="nav-item active">@Html.ActionLink("ABOUT", "About", "Home")</li>
+                <li class="nav-item active">@Html.ActionLink("DONATE", "About", "Home")</li>
+                @*<li>@Html.ActionLink("Contact", "Contact", "Home")</li>*@
+            </ul>
+        </div>
+    </nav>
+</div>
+        </nav>
+
+<div class="container body-content">
+    @RenderBody()
+    <hr />
+    <footer>
+        @*<p>&copy; @DateTime.Now.Year - University of Louisville: College of Business CardLink</p>*@
+    </footer>
+</div>
+
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/bootstrap")
+@RenderSection("scripts", required: false)
+
+@*</body>*@
+@*</html>*@
