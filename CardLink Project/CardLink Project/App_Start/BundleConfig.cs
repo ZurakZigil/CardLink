@@ -23,8 +23,10 @@ namespace CardLink_Project
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap-BootswatchLux.css",
+                      //"~/Content/Lazaro.css",
+                      //"~/Content/bootstrap-BootswatchLux.css",
                       "~/Content/bootstrap.css",
+                      //"~/Content/bootstrap-BootswatchSuperHero.css",
                       "~/Content/site.css"));
         }
     }

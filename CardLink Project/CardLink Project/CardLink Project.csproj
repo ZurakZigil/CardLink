@@ -130,10 +130,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-BootswatchLux.css" />
+    <Content Include="Content\bootstrap-BootswatchSuperHero.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\CardLink Logo v1.png" />
+    <Content Include="Content\Images\Logo_v1.jpg" />
+    <Content Include="Content\Images\Some_students_sitting_on_sign.jpg" />
+    <Content Include="Content\Images\University_of_Louisville_sign.jpg" />
+    <Content Include="Content\Lazaro.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
