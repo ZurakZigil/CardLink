@@ -23,9 +23,22 @@ namespace CardLink_Project
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap-BootswwatchLu.css",
-                      "~/Content/bootstrap.css",
+                      //"~/Content/Lazaro.css",
+                      "~/Content/bootstrap-BootswatchLux.css",
+                      //"~/Content/bootstrap.css",
+                      //"~/Content/bootstrap-BootswatchSuperHero.css",
                       "~/Content/site.css"));
+
+            bundles.Add(new StyleBundle("~/Content/LoginCSS").Include(
+                "~/Content/Login.css",
+                "~/Content/bootstrap.css",
+                "~/Content/site.css"
+                ));
+
+            bundles.Add(new ScriptBundle("~/bundles/LoginJS").Include(
+                "~/Scripts/Login.js",
+                "~/Scripts/bootstrap.js"
+                ));
         }
     }
 }
