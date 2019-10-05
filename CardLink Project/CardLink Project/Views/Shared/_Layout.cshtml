@@ -25,7 +25,7 @@
                 <li class="nav-item active">@Html.ActionLink("ABOUT", "About", "Home")</li>
                 <li class="nav-item active">@Html.ActionLink("DONATE", "About", "Home")</li>
                 @*<li class="nav-item active">@Html.ActionLink("LOG IN", "Login", "Login")</li>*@
-                <li><button type="button" class="btn btn-primary">@Html.ActionLink("LOG IN", "Login", "Login")</button></li>
+                <li><button type="button" class="btn btn-primary nav-item active">@Html.ActionLink("LOG IN", "Login", "Login")</button></li>
                 @*<li>@Html.ActionLink("Contact", "Contact", "Home")</li>*@
             </ul>
         </div>
@@ -35,7 +35,7 @@
 
 <div class="container body-content">
     @RenderBody()
-    <hr />
+
     <footer>
         <p>&copy; @DateTime.Now.Year - University of Louisville: College of Business CardLink</p>
     </footer>

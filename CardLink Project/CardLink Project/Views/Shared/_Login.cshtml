@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Login - My ASP.NET Application</title>
     @Styles.Render("~/Content/LoginCSS")
-    @*@Scripts.Render("~/bundles/LoginJS")*@
+    
 </head>
 
 <div class="container">
@@ -13,30 +13,28 @@
         <a class="navbar-brand" href="#">
             <img src="../../Content/Images/CardLink Logo v1.png" alt="">
         </a>
-        <div class="navbar-header">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                <span class="navbar-toggler-icon"></span>
-                <span class="navbar-toggler-icon"></span>
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            @*@Html.ActionLink("CardLink", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })*@
-        </div>
+        @*<div class="navbar-header">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                @Html.ActionLink("CardLink", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>*@
         <div class="navbar-collapse collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">@Html.ActionLink("HOME", "Index", "Home")</li>
                 <li class="nav-item active">@Html.ActionLink("ABOUT", "About", "Home")</li>
                 <li class="nav-item active">@Html.ActionLink("DONATE", "About", "Home")</li>
+                @*<li class="nav-item active">@Html.ActionLink("LOG IN", "Login", "Login")</li>*@
+                @*<li><button type="button" class="btn btn-primary nav-item active">@Html.ActionLink("LOG IN", "Login", "Login")</button></li>*@
                 @*<li>@Html.ActionLink("Contact", "Contact", "Home")</li>*@
             </ul>
         </div>
     </nav>
 </div>
-        </nav>
 
 <div class="container body-content">
     @RenderBody()
-    <hr />
+    
     <footer>
         @*<p>&copy; @DateTime.Now.Year - University of Louisville: College of Business CardLink</p>*@
     </footer>

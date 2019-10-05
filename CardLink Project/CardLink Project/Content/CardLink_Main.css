@@ -68,6 +68,7 @@ a {
     color: #fff;
     text-decoration: none;
     background-color: transparent;
+
 }
 
 .container {
@@ -99,6 +100,7 @@ a {
     align-items: center;
     justify-content: space-between;
     font-size: 0.98rem;
+    font-weight: 600;
 }
 
 .nav-item {
@@ -110,6 +112,7 @@ a {
     margin-bottom: 0;
     list-style: none;
     flex-direction: row;
+    padding-right: 1rem;
 }
 
     .navbar-nav li {
@@ -185,6 +188,12 @@ a {
     color: #919aa1;
     text-decoration: none;
 }
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;

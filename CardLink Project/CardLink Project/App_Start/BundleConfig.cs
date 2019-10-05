@@ -39,9 +39,9 @@ namespace CardLink_Project
 
             //Login
             bundles.Add(new StyleBundle("~/Content/LoginCSS").Include(
-                //"~/Content/CardLink_Main.css"
-                "~/Content/Login.css",
-                "~/Content/bootstrap-BootswatchLux.css"
+                "~/Content/CardLink_Main.css",
+                "~/Content/Login.css"
+                //"~/Content/bootstrap-BootswatchLux.css"
                 //"~/Content/bootstrap.css"
                 //"~/Content/site.css"
                 ));
