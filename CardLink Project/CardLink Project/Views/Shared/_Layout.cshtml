@@ -13,15 +13,12 @@
         <a class="navbar-brand" href="#">
             <img src="../../Content/Images/CardLink Logo v1.png" alt="">
         </a>
-        <div class="navbar-header">
+        @*<div class="navbar-header">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-                <span class="navbar-toggler-icon"></span>
-                <span class="navbar-toggler-icon"></span>
-                <span class="navbar-toggler-icon"></span>
             </button>
-            @*@Html.ActionLink("CardLink", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })*@
-        </div>
+            @Html.ActionLink("CardLink", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+        </div>*@
         <div class="navbar-collapse collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">@Html.ActionLink("HOME", "Index", "Home")</li>
@@ -35,7 +32,7 @@
     </nav>
 </div>
 
-        </nav>
+
 <div class="container body-content">
     @RenderBody()
     <hr />
