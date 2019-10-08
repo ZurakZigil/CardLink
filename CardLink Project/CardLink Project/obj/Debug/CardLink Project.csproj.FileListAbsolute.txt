@@ -74,3 +74,7 @@ C:\Users\chris\OneDrive - University of Louisville\9 - CIS 420\GitHub\CardLink\C
 C:\Users\chris\OneDrive - University of Louisville\9 - CIS 420\GitHub\CardLink\CardLink Project\CardLink Project\obj\Debug\CardLink Project.dll
 C:\Users\chris\OneDrive - University of Louisville\9 - CIS 420\GitHub\CardLink\CardLink Project\CardLink Project\obj\Debug\CardLink Project.pdb
 C:\Users\chris\OneDrive - University of Louisville\9 - CIS 420\GitHub\CardLink\CardLink Project\CardLink Project\obj\Debug\CardLink Project.csprojAssemblyReference.cache
+C:\Users\chris\OneDrive - University of Louisville\9 - CIS 420\GitHub\CardLink\CardLink Project\CardLink Project\bin\EntityFramework.dll
+C:\Users\chris\OneDrive - University of Louisville\9 - CIS 420\GitHub\CardLink\CardLink Project\CardLink Project\bin\EntityFramework.SqlServer.dll
+C:\Users\chris\OneDrive - University of Louisville\9 - CIS 420\GitHub\CardLink\CardLink Project\CardLink Project\bin\EntityFramework.xml
+C:\Users\chris\OneDrive - University of Louisville\9 - CIS 420\GitHub\CardLink\CardLink Project\CardLink Project\bin\EntityFramework.SqlServer.xml
