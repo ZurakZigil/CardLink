@@ -52,13 +52,23 @@ namespace CardLink_Project
                 ));
 
 
-            //Login
+            //Profile
             bundles.Add(new StyleBundle("~/Content/ProfileCSS").Include(
                 //"~/Content/CardLink_Main.css",
-                "~/Content/Profile.css"
+                "~/Content/Profile/Profile.css",
+                "~/Content/Profile/ProfileBootstrap.min.css",
+                "~/Content/Profile/Fonts/fontawesome-all.min.css"
                 //"~/Content/bootstrap-BootswatchLux.css"
                 //"~/Content/bootstrap.css"
                 //"~/Content/site.css"
+                ));
+
+            bundles.Add(new ScriptBundle("~/bundles/ProfileJS").Include(
+                "~/Scripts/Profile/bootstrap.min.js",
+                "~/Scripts/Profile/bs-charts.js",
+                "~/Scripts/Profile/chart.min.js",
+                "~/Scripts/Profile/jquery.min.js",
+                "~/Scripts/Profile/theme.js"
                 ));
         }
     }
