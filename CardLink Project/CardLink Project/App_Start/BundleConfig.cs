@@ -50,6 +50,16 @@ namespace CardLink_Project
                 "~/Scripts/Login.js",
                 "~/Scripts/modernizr-*"
                 ));
+
+
+            //Login
+            bundles.Add(new StyleBundle("~/Content/ProfileCSS").Include(
+                //"~/Content/CardLink_Main.css",
+                "~/Content/Profile.css"
+                //"~/Content/bootstrap-BootswatchLux.css"
+                //"~/Content/bootstrap.css"
+                //"~/Content/site.css"
+                ));
         }
     }
 }

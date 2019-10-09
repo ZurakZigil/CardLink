@@ -173,6 +173,7 @@
     <Content Include="Content\Images\University_of_Louisville_sign.jpg" />
     <Content Include="Content\Lazaro.css" />
     <Content Include="Content\Login.css" />
+    <Content Include="Content\Profile.css" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
