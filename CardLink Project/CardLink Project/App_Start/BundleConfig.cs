@@ -64,10 +64,10 @@ namespace CardLink_Project
                 ));
 
             bundles.Add(new ScriptBundle("~/bundles/ProfileJS").Include(
+                "~/Scripts/Profile/jquery.min.js", 
                 "~/Scripts/Profile/bootstrap.min.js",
                 "~/Scripts/Profile/bs-charts.js",
                 "~/Scripts/Profile/chart.min.js",
-                "~/Scripts/Profile/jquery.min.js",
                 "~/Scripts/Profile/theme.js"
                 ));
         }
