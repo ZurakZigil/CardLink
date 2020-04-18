@@ -1,0 +1,223 @@
+﻿@{
+    ViewBag.Title = "About";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@*<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+    <html>
+    <head>
+        @*<link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>*@
+    </head>
+    <body>
+        <section id="nav-bar">
+        </section>
+        <section id="Welcome">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1>About</h1>
+                        <div class="about-content">
+                            The CIS Mentor Program was created by CIS students. We worked with our client to discover all the business needs for this system.
+                            Our team has thought about all the features that we would want from a mentor system, since we are students in CIS classes.
+                            This mentor program was created to face several problems and aims to increase students continuing their CIS classes, and to increase CIS alumni participation.
+                        </div>
+                        @*<button type="button" class="btn btn-primary">@Html.ActionLink("LOG IN", "Login", "Login")</button>*@
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="nav-bar">
+        </section>
+        <section id="Welcome">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1>Student Confidence</h1>
+                        <div class="student-content">
+                            Our purpose for creating this mentor program is to give students an additional resource for help in their classes.
+                            CIS classes are difficult, sometimes students are not able to ask the questions that they want in class.
+                            The mentor program aims to match students with a mentor who is like them in one way or more.
+                        </div>
+                        @*<button type="button" class="btn btn-primary">@Html.ActionLink("LOG IN", "Login", "Login")</button>*@
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Welcome">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1>Alumni Involvement</h1>
+                        <div class="alumni-content">
+                            The mentor program also encourages graduates of the cis department at UofL to join.
+                            hey can form mentorships with undergraduates. This is a good opportunity for alumni to give back tot heir department.
+                            We also accept donations from anyone who supports our initiative for this program.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        @*<section id="nav-bar">
+        </section>
+        <section id="About">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1>About</h1>
+                        <div class="about-content">
+                            The CIS Mentor Program was created by CIS students. We worked with our client to discover all the business needs for this system.
+                            Our team has thought about all the features that we would want from a mentor system, since we are students in CIS classes.
+                            This mentor program was created to face several problems and aims to increase students continuing their CIS classes, and to increase CIS alumni participation.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Student">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1>Student Confidence</h1>
+                        <div class="student-content">
+                            Our purpose for creating this mentor program is to give students an additional resource for help in their classes.
+                            CIS classes are difficult, sometimes students are not able to ask the questions that they want in class.
+                            The mentor program aims to match students with a mentor who is like them in one way or more.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Alumni">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1>Alumni Involvement</h1>
+                        <div class="alumni-content">
+                            The mentor program also encourages graduates of the cis department at UofL to join.
+                            hey can form mentorships with undergraduates. This is a good opportunity for alumni to give back tot heir department.
+                            We also accept donations from anyone who supports our initiative for this program.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>*@
+    </body>
+    </html>
+
+<style>
+ body
+{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../../Content/Images/Some_students_sitting_on_sign.jpg);
+	height: cover;
+	background-size: cover;
+	background-position: center;
+}
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index:10;
+}
+
+.navbar-brand img
+{
+	height: 100px;
+	padding-left: 0px;
+	
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+	color: #007bff!important;
+}
+
+.navbar-nav li a
+{
+	float: right;
+	text-align: left;
+}
+
+#nav-bar ul li a:hover
+{
+	color: #007bff!important;
+}
+
+.navbar
+{
+	background: #fff;
+}
+
+.navbar-toggler
+{
+	border: none!important;
+}
+.nav-link
+{
+  color: #555!important;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/*Welcome*/
+#Welcome
+{
+	padding-top: 350px;
+	padding-bottom: 50px;
+	color: white;
+	font-size: 20px;
+}
+#Welcome .btn
+{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.about-content
+{
+	padding-top: 20px;
+}
+
+/*About*/
+#About
+{
+	padding-top: 100px;
+	padding-right: 700px;
+	padding-bottom: 50px;
+	color: white;
+	font-size: 20px;
+}
+
+#Student
+{
+	padding-top: 50px;
+	padding-right: 700px;
+	padding-bottom: 50px;
+	color: white;
+	font-size: 20px;
+}
+
+
+#Alumni
+{
+	padding-top: 100px;
+	padding-right: 700px;
+	padding-bottom: 500px;
+	color: white;
+	font-size: 20px;
+}
+</style>
+
+
